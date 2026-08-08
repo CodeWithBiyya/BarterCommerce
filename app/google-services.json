@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "765406549070",
+    "firebase_url": "https://mytodolist-e6bae-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "mytodolist-e6bae",
+    "storage_bucket": "mytodolist-e6bae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765406549070:android:1beecb44bcd40ab79f5f1f",
+        "android_client_info": {
+          "package_name": "com.example.signuplogina"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcw4wS7UmaGmmgZWNqYGSot96z5gzJqwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765406549070:android:e2d95a327b2918dd9f5f1f",
+        "android_client_info": {
+          "package_name": "com.example.todolist"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcw4wS7UmaGmmgZWNqYGSot96z5gzJqwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

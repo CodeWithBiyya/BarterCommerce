@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#18286B">
+
+    <!-- App Logo -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/handshake"
+        android:layout_marginTop="50dp"
+        android:visibility="invisible"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- App Name -->
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BarterCommerce"
+        android:textColor="#F4F4F9"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@id/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Barter Icon 1 -->
+    <ImageView
+        android:id="@+id/barter_icon_1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/buying"
+        android:visibility="invisible"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="50dp" />
+
+    <!-- Barter Icon 2 -->
+    <ImageView
+        android:id="@+id/barter_icon_2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/box"
+        android:visibility="invisible"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="50dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

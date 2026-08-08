@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_gray">#D8D2D2</color>
+    <color name="red">#BC0B0B</color>
+    <color name="lime">#00FF0A</color>
+    <color name="dark_green">#014203</color>
+    <color name="dark_gray">#585D60</color>
+    <color name="purple_700">#481D94</color>
+    <color name="purple_500">#6009FA</color>
+    <color name="light_gray">#8A9493</color>
+    <color name="colorPrimary">#18286B</color> <!-- Deep Blue -->
+    <color name="colorPrimaryDark">#6A5ACD</color> <!-- Slate Blue -->
+    <color name="colorAccent">#B8A6CB</color> <!-- Lavender -->
+    <color name="grey">#707375</color> <!-- Lavender -->
+
+
+    <!-- Background Colors -->
+    <color name="colorGray">#D1D5DB</color> <!-- Cool Gray -->
+
+    <!-- Text Colors -->
+    <color name="textColorPrimary">#18286B</color> <!-- Deep Blue for text -->
+    <color name="textColorSecondary">#6A5ACD</color> <!-- Slate Blue for accent text -->
+
+    <!-- Button Colors -->
+    <color name="buttonColorPrimary">#18286B</color> <!-- Deep Blue for buttons -->
+    <color name="buttonTextColor">#FFFFFF</color> <!-- White text on buttons -->
+
+    <!-- Hint Text Colors -->
+    <color name="hintTextColorPrimary">#6A5ACD</color> <!-- Slate Blue for hint text -->
+
+</resources>

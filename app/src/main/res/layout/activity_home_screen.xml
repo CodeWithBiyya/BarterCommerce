@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeScreen">
+    <!--  Top Toolbar  -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        >
+        <!--  Hamburger icon  -->
+        <ImageView
+            android:id="@+id/menuIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu" />
+        <!--  App title  -->
+        <TextView
+            android:id="@+id/appTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:text="BarterCommerce"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <!--  Profile icon  -->
+        <ImageView
+            android:id="@+id/profileIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_profile" />
+    </androidx.appcompat.widget.Toolbar>
+    <!--  Latest Items Section (Horizontal RecyclerView)  -->
+    <TextView
+        android:id="@+id/latestItemsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="Latest Items"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/latestItemsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:scrollbars="horizontal" />
+    <!--  Explore Banner  -->
+    <!--         <ImageView -->
+    <!--             android:id="@+id/exploreBanner" -->
+    <!--             android:layout_width="match_parent" -->
+    <!--             android:layout_height="200dp" -->
+    <!--             android:scaleType="centerCrop" -->
+    <!--             android:src="@drawable/ic_apple" /> -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Explore"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <!--  Product Grid  -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/productGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AddItem" />
+</LinearLayout>
