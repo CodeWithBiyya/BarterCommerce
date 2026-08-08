@@ -29,6 +29,14 @@ BarterCommerce is an Android application that enables users to exchange products
 
 ## 📱 Screenshots
 
+<img width="717" height="1600" alt="WhatsApp Image 2026-08-07 at 8 19 14 PM" src="https://github.com/user-attachments/assets/4f70ceb2-3879-4d81-a3b0-cd5e8dde112b" />
+
+<img width="1080" height="2408" alt="WhatsApp Image 2026-08-07 at 8 19 15 PM" src="https://github.com/user-attachments/assets/b8868672-cb46-41d8-b4b4-66c0a0043b6d" />
+
+<img width="717" height="1600" alt="WhatsApp Image 2026-08-07 at 8 19 14 PM (1)" src="https://github.com/user-attachments/assets/4694b35e-559d-4e16-90b0-ff131daf604e" />
+
+
+
 
 
 ## 🚀 Installation
