@@ -61,6 +61,6 @@ Configure Firebase and run the project.
 
 **Areeba Eman**
 
-GitHub: https://github.com/biyya-dev
+GitHub: https://github.com/CodeWithBiyya
 
 ⭐ Don't forget to star this repository!
